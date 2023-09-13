@@ -3,200 +3,158 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
+    position: left # position of the sidebar : left or right
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Ricardo Zavaleta
+    tagline: Software Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    email: rj.zavaleta@gmail.com
+    phone:
+    timezone: America/Guadalajara Timezone
+    citizenship: Mexican
+    website: rzavalet.github.io #do not add http://
+    linkedin: ricardojzavaletav
+    xing: 
+    github: rzavalet
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: 
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Spanish
           level: Native
 
-        - idiom: French
-          level: Professional
+        - idiom: English
+          level: Fluent
 
-        - idiom: Spanish
-          level: Professional
+        - idiom: German
+          level: Basic
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: 
           link:
 
-        - item: Snowboarding
+        - item: 
           link:
 
-        - item: Cooking
+        - item: 
           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Experienced C systems programmer. Interested in databases and low-level programming.
+
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: MSc in Electrical Engineering
+        university: CINVESTAV, Guadalajara
+        time: 2016-2020 (Part-time program)
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+          Computer science program within the EE department. Focus on Parallelism and Distributed Systems. Thesis on Real-Time databases.
+      - degree: BSc in Computer Engineering
+        university: UNAM, Mexico
+        time: 2006-2010
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Intelligent systems track.
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Consulting Member of Technical Staff
+        time: August 2011 - Present
+        company: Oracle, Mexico Development Center
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+
+          Consulting Member of Technical Staff (IC4) for the Oracle Timesten In-Memory Database team. Started as IC2 in 2011.
+
+          Contributor of TimesTen Cache, TimesTen Replication and TimesTen Scaleout.
+
+          Design and implementation of several features (team efforts), such as:
+            - Support for caching in TimesTen Scaleout.
+            - Shard recovery using duplication for the TimesTen Scaleout product.
+            - Internal connection pool to efficiently manage Oracle connections in TimesTen.
+            - Caching support for HA backend databases.
+            - Ingestion of Oracle External Tables by TimesTen (not released)
+
+          Collaboration with Oracle Support Team to resolve customer scalations of different severities.
+
+      - role: Software Engineer
+        time: May 2011 - July 2011
+        company: BADAK/Hildebrando/Mexican Stock Exchange
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Implementation of a new system for the electronic board of prices used by the Mexican Stock Exchange.
+
+      - role: Internship
+        time: August 2010 - December 2010
+        company: IBM, Mexico
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Windows Servers administration.
+
+          Collaborated on the administration of Servers for different companies such as Metlife and Danone at Integrated Technology Delivery department at IBM.
+
+      - role: Internship
+        time: January 2009 - June 2011
+        company: LADAI (Wireless and Web Applications Development Lab), School of Engineering, UNAM
+        details: |
+          Internship as web and mobile developer.
+
+          Evaluated several frameworks, such as:
+          - Symfony framework for PHP.
+          - Plaza Mobile Widgets Client SDK of Qualcomm.
+          - Android SDK. Taught several introductory courses.
+          - iOS SDK. Taught several introductory courses.
 
 certifications:
       title: Certifications
       list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
+        - name: Oracle Cloud Infrastructure Foundations 2021 Associate
+          start: 
+          end: 
+          organization: Oracle
+          credentialid: FE4192534AE03A729E496DFA827700D58736E74F530EB356233D99DB33607616
+          credentialurl: 
+          credentialname: 
           details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
+            The Oracle Cloud Infrastructure (OCI) Foundations certification is intended for individuals looking to demonstrate fundamental knowledge of public cloud services provided by Oracle Cloud Infrastructure. 
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    title: School and Independent Projects
+    intro:
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Prototype of a Real-Time Database System
+        link: "https://github.com/rzavalet/ChronosXServer"
+        tagline: "MSc Thesis project. Implementation of a Client/Server application that simulates stock trading to evaluate Database Performance on top of an RTOS."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Distributed Snake Game
+        link: "https://github.com/rzavalet/multiple-displays"
+        tagline: "Android Application for the Distributed Systems course. A version of the Snake game where the world spanned multiple android devices. The player was able to play from any of such devices. The code was adapted from the sample provided in the Android SDK documentation."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: GUI application for managing any MySQL database
+        link: ""
+        tagline: "Team project written in Visual Basic. It allowed creating and managing MySQL databases and objects. The main purpose was to understand and use the system tables."
 
-      - title: Atom
+      - title: Modelometro
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        tagline: "Development of an iOS application for the Explora Modelo Contest. Team project, 2 people. The application was an attempt to measure the equilibrium of a person in order to determine the amount of alcohol in the blood. Because of the novel/funny idea, we won the 1st place in the contest. "
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: UNAM 360
+        link: "https://www.youtube.com/watch?v=yrbwBMMi5qI"
+        tagline: "Team project developed at UNAM. The application was an initial attempt to use virtual reality using the iPhone’s camera to navigate UNAM’s campus."
 
 oss:
     title: OSS Contributions
@@ -243,23 +201,47 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: C
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: Shell Scripting
         level: 98%
 
-      - name: Angular
-        level: 98%
+      - name: Perl Scripting
+        level: 80%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: Python
+        level: 50%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Java
+        level: 40%
 
-      - name: Sketch & Photoshop
+      - name: PHP
+        level: 40%
+
+      - name: Rust
+        level: 20%
+
+      - name: Linux
+        level: 80%
+
+      - name: Oracle
         level: 60%
+
+      - name: TimesTen
+        level: 100%
+
+      - name: Berkeley DB
+        level: 50%
+
+      - name: MySQL
+        level: 20%
+
+      - name: Postgres
+        level: 10%
+
+      - name: Git
+        level: 70%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
