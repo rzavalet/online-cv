@@ -28,7 +28,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: 
+    pdf: https://github.com/rzavalet/resume/blob/master/ricardo_zavaleta_resume.pdf
 
     languages:
       title: Languages
@@ -67,7 +67,7 @@ education:
         time: 2016-2020 (Part-time program)
         details: |
           Computer science program within the EE department. Focus on Parallelism and Distributed Systems. Thesis on Real-Time databases.
-      - degree: BSc in Computer Engineering
+      - degree: Bachelor in Computer Engineering
         university: UNAM, Mexico
         time: 2006-2010
         details: |
@@ -220,7 +220,7 @@ skills:
         level: 40%
 
       - name: Rust
-        level: 20%
+        level: 10%
 
       - name: Linux
         level: 80%
@@ -235,7 +235,7 @@ skills:
         level: 50%
 
       - name: MySQL
-        level: 20%
+        level: 10%
 
       - name: Postgres
         level: 10%
